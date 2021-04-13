@@ -1,25 +1,21 @@
 import React, { createContext, useContext } from "react";
-import { useProductReducer } from './reducers';
+import { useProductReducer } from './reducers'
 
-// instantiate the global state object
 const StoreContext = createContext();
 const { Provider } = StoreContext;
 
-//used to manage and update the state using the reducer
 const StoreProvider = ({ value = [], ...props }) => {
-    const [state, dispatch] = useProductReducer({
-      products: [],
-      categories: [],
-      currentCategory: '',
-    });
-    // use this to confirm it works!
-    console.log(state);
-    return <Provider value={[state, dispatch]} {...props} />;
-  };
+  const [state, dispatch] = useProductReducer({
+    products: [],
+    categories: [],
+    currentCategory: '',
+  });
 
-  const useStoreContext = () => {
-    return useContext(StoreContext);
-  };
+  return <Provider value={[state, dispatch]} {...props} />;
+};
 
+const useStoreContext = () => {
+  return useContext(StoreContext);
+};
 
 export { StoreProvider, useStoreContext };
