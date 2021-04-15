@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'watch' ]
+2 info using npm@6.14.10
+3 info using node@v14.15.4
+4 verbose run-script [ 'prewatch', 'watch', 'postwatch' ]
+5 info lifecycle mern-server@1.0.0~prewatch: mern-server@1.0.0
+6 info lifecycle mern-server@1.0.0~watch: mern-server@1.0.0
+7 verbose lifecycle mern-server@1.0.0~watch: unsafe-perm in lifecycle true
+8 verbose lifecycle mern-server@1.0.0~watch: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/macheyasteele/Documents/school/second-half-projects/shop-shop/server/node_modules/.bin:/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/macheyasteele/Documents/school/second-half-projects/shop-shop/node_modules/.bin:/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/macheyasteele/Documents/school/second-half-projects/shop-shop/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/mysql/bin/.
+9 verbose lifecycle mern-server@1.0.0~watch: CWD: /Users/macheyasteele/Documents/school/second-half-projects/shop-shop/server
+10 silly lifecycle mern-server@1.0.0~watch: Args: [ '-c', 'nodemon' ]
+11 silly lifecycle mern-server@1.0.0~watch: Returned: code: 130  signal: null
+12 info lifecycle mern-server@1.0.0~watch: Failed to exec watch script
+13 verbose stack Error: mern-server@1.0.0 watch: `nodemon`
+13 verbose stack Exit status 130
+13 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:315:20)
+13 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:315:20)
+13 verbose stack     at maybeClose (internal/child_process.js:1048:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+14 verbose pkgid mern-server@1.0.0
+15 verbose cwd /Users/macheyasteele/Documents/school/second-half-projects/shop-shop/server
+16 verbose Darwin 20.3.0
+17 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "watch"
+18 verbose node v14.15.4
+19 verbose npm  v6.14.10
+20 error code ELIFECYCLE
+21 error errno 130
+22 error mern-server@1.0.0 watch: `nodemon`
+22 error Exit status 130
+23 error Failed at the mern-server@1.0.0 watch script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 130, true ]
