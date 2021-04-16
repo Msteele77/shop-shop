@@ -65,7 +65,7 @@ const Cart = () => {
       <div className="cart-closed" onClick={toggleCart}>
         <span
           role="img"
-          aria-label="trash">ðŸ›’</span>
+          aria-label="trash">🛒</span>
       </div>
     );
   }
@@ -96,7 +96,7 @@ const Cart = () => {
       ) : (
           <h3>
             <span role="img" aria-label="shocked">
-              ðŸ˜±
+            😲
           </span>
           You haven't added anything to your cart yet!
           </h3>
